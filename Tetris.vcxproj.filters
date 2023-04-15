@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{83ad3fd9-607e-47e9-a915-e3a02dd39355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tremor">
+      <UniqueIdentifier>{57df2dd2-3d1a-462e-83a4-36291336fd6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3ds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fontdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3ds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\bitwise.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\block.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\codebook.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\floor0.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\floor1.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\framing.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\info.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\mapping0.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\mdct.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\registry.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\res012.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\sharedbook.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\synthesis.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\vorbisfile.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremor\window.c">
+      <Filter>Tremor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blur_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="blur_v.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="composite_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="composite_v.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="generic_v.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="glass_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lighting_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="milkglass_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox_v.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
